@@ -6,7 +6,7 @@ class UserGreeting extends Component {
         super(props)
     
         this.state = {
-             isLoggedIn: true
+            isLoggedIn: true
         }
     };
     
@@ -24,13 +24,19 @@ class UserGreeting extends Component {
         // )
 
 
-        let message;
-        if(this.state.isLoggedIn){
-            message = <div>WEL COME MAN!</div>
-        } else {
-            message = <div>WEL COME GUEST!</div>
-        }
-        return<div>{message}</div>
+        // let message;
+        // if(this.state.isLoggedIn){
+        //     message = <div>WEL COME MAN!</div>
+        // } else {
+        //     message = <div>WEL COME GUEST!</div>
+        // }
+        // return<div>{message}</div>
+
+        return this.state.isLoggedIn ? (
+            <div>WEL COME MAN!</div>
+        ) : (
+            <div>WEL COME GUEST!</div>
+        )
     };
 };
 
