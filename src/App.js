@@ -27,7 +27,10 @@ class App extends Component {
         <Welcome  name= 'Sam' nickName='Don' /> */}
 
         {/* <Message /> */}
-        <Counter /> 
+        {/* <Counter />  */}
+
+        <Greet name= 'Sam' nickName='Don' />
+
 
 
       </div>
