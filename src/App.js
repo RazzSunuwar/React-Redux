@@ -30,6 +30,8 @@ class App extends Component {
         {/* <Counter />  */}
 
         <Greet name= 'Sam' nickName='Don' />
+        <Welcome name= 'David' nickName='Bad Boy' /> 
+
 
 
 
