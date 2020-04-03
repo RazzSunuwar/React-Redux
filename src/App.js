@@ -5,6 +5,7 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
 
 class App extends Component {
   render() {
@@ -29,9 +30,10 @@ class App extends Component {
         {/* <Message /> */}
         {/* <Counter />  */}
 
-        <Greet name= 'Sam' nickName='Don' />
-        <Welcome name= 'David' nickName='Bad Boy' /> 
-
+        {/* <Greet name= 'Sam' nickName='Don' /> */}
+        {/* <Welcome name= 'David' nickName='Bad Boy' /> */}
+        
+        <FunctionClick />
 
 
 
