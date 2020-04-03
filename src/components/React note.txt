@@ -1,0 +1,56 @@
+Functional:
+Simple Functions
+Use Func components as much as possible
+Absense of 'this' keyword
+Solution without using state
+Statless/ Dumb / Presentational
+
+Class:
+More feature rich
+Maintain their own private data -state
+Complex UI logic
+Provide lifecycle hooks
+Stateful/ Smart/ Container
+
+Hooks:
+No breaking changes.
+Completely opt-in & 100% backwards-compatible.
+Component types - Functional components and class components.
+Using state, lifecycle methods and 'this' binding.
+After understanding state, event binding and lifecycle hooks in class components.
+
+JSX:
+JavaScript XML (JSX) - Extension to the JavaScript language syntax.
+Write XML-like code for elements and components.
+JSX tags have a tag name, attributes, and children.
+JSX is not a necessity to write React applications.
+JSX makes your react code simpler and elegant.
+JSX ultimately transpiles to pure JavaScript which is understood by the browsers.
+
+JSX differences
+Class -> className
+for -> htmlFor
+camelCase property naming convention
+- onclick -> onclick
+- tabindex -> tabindex
+
+
+props vs state
+
+props
+props get passed to the component
+Function parameters
+props are immutabale
+props - Functional Components
+this.props - Class Components
+
+state
+state is managed within the component
+Variable declared in the function body
+state can be change or mutable
+useState Hook - Functional Component
+this.state - Class Component
+
+Super: The super keyword refers to the parent class. It is used to call the constructor 
+of the parent class and to access the parent's properties and methods.
+
