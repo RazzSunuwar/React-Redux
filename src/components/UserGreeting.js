@@ -32,11 +32,13 @@ class UserGreeting extends Component {
         // }
         // return<div>{message}</div>
 
-        return this.state.isLoggedIn ? (
-            <div>WEL COME MAN!</div>
-        ) : (
-            <div>WEL COME GUEST!</div>
-        )
+        // return this.state.isLoggedIn ? (
+        //     <div>WEL COME MAN!</div>
+        // ) : (
+        //     <div>WEL COME GUEST!</div>
+        // )
+
+        return this.state.isLoggedIn && <div>WEL COME MAN!</div>
     };
 };
 
