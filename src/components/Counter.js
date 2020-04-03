@@ -19,7 +19,7 @@ class Counter extends Component {
         // }
         // );
         
-        this.setState((prevState) => ({
+        this.setState((prevState, props) => ({
             count: prevState.count + 1
         }))
         console.log(this.state.count)

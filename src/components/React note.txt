@@ -27,7 +27,7 @@ JSX is not a necessity to write React applications.
 JSX makes your react code simpler and elegant.
 JSX ultimately transpiles to pure JavaScript which is understood by the browsers.
 
-JSX differences
+JSX differences:
 Class -> className
 for -> htmlFor
 camelCase property naming convention
@@ -37,20 +37,30 @@ camelCase property naming convention
 
 props vs state
 
-props
+props:
 props get passed to the component
 Function parameters
 props are immutabale
 props - Functional Components
 this.props - Class Components
 
-state
+state:
 state is managed within the component
 Variable declared in the function body
 state can be change or mutable
 useState Hook - Functional Component
 this.state - Class Component
 
-Super: The super keyword refers to the parent class. It is used to call the constructor 
+Super:
+The super keyword refers to the parent class. It is used to call the constructor 
 of the parent class and to access the parent's properties and methods.
+
+setState:
+Always make use of setState and never modify the state directly
+
+Code has to be executed after the state has been updated? Place the code callback function which
+is the second arguments to the setState method
+
+When you have to update state based on the previous state value, pass in a function as an arguments
+instead of the regular object.
 
