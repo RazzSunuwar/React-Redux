@@ -13,6 +13,8 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import StyleSheet from './components/Stylesheet';
 import Inline from './components/Inline';
+import './AppStyle.css';
+import styles from './AppStyle.module.css';
 
 class App extends Component {
   render() {
@@ -54,7 +56,11 @@ class App extends Component {
 
         {/* <StyleSheet primary = {true} /> */}
 
-        <Inline />
+        {/* <Inline /> */}
+
+        {/* CSS Modules */}
+        <h1 className='error'>Error</h1>
+        <h1 className={styles.success}>Success</h1>
 
       </div>
     );
