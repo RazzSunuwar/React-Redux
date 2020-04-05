@@ -12,6 +12,7 @@ import ParentComponet from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import StyleSheet from './components/Stylesheet';
+import Inline from './components/Inline';
 
 class App extends Component {
   render() {
@@ -51,7 +52,9 @@ class App extends Component {
 
         {/* <NameList /> */}
 
-        <StyleSheet primary = {true} />
+        {/* <StyleSheet primary = {true} /> */}
+
+        <Inline />
 
       </div>
     );
