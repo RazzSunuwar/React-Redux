@@ -64,3 +64,13 @@ is the second arguments to the setState method
 When you have to update state based on the previous state value, pass in a function as an arguments
 instead of the regular object.
 
+List and Keys
+A 'Key' is a special string attribute you need to include when creating lists of elements
+
+Keys give the elements a stable identitiy.
+
+Keys help React identify which items have changed, are added, or are removed.
+
+Help in effcient update of the user interface.
+
+
