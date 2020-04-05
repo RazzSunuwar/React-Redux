@@ -87,4 +87,25 @@ Styling React Components
 4. CSS in JS Libaries (Styled Components)
 
 
+Lifecycle Methods
+
+Mounting: It is called when an instance of a component is being created and inserted into the DOM.
+=> constructor, static getDerivedStateFromProps, render and componentDidMount
+
+Updating: It is called when a component is being re-rendered as a result of changes to either its
+props or state.
+=> static getDerivedStateFromProps, shouldComponentUpdate, render and componentDidMount
+
+Umounting: It is called when a component is being removed from the DOM
+=> componentWillUmount
+
+Error Handling: It is called when there is an error during rendering, in a lifecycle method,
+or in the constructor of any child component.
+=> static getDerivedStateFromError and componentDidCatch
+
+
+
+
+
+
 
