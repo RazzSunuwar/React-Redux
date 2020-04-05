@@ -73,4 +73,12 @@ Keys help React identify which items have changed, are added, or are removed.
 
 Help in effcient update of the user interface.
 
+Index as key
+When to use index as a key?
+
+1. The items in your list to do have a unique id.
+2. The list is a static list and will not change.
+3. The list will never be reordered or filtered.
+
+
 
