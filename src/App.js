@@ -11,6 +11,7 @@ import EventBind from './components/EventBind';
 import ParentComponet from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import StyleSheet from './components/Stylesheet';
 
 class App extends Component {
   render() {
@@ -48,7 +49,9 @@ class App extends Component {
 
         {/* <UserGreeting /> */}
 
-        <NameList />
+        {/* <NameList /> */}
+
+        <StyleSheet primary = {true} />
 
       </div>
     );

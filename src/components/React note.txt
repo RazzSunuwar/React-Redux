@@ -80,5 +80,11 @@ When to use index as a key?
 2. The list is a static list and will not change.
 3. The list will never be reordered or filtered.
 
+Styling React Components 
+1. CSS stylesheets
+2. Inline styling 
+3. CSS Modules
+4. CSS in JS Libaries (Styled Components)
+
 
 
