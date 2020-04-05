@@ -1,20 +1,33 @@
 import React from 'react';
 
 function NameList() {
-    const names = ['Robin', 'Brad', 'Leo']
-    return (
-        <div>
-          {/* <h2>{names[0]}</h2>  
-          <h2>{names[1]}</h2>  
-          <h2>{names[2]}</h2>   */}
-
-          {/* With map method */}
-
-          {
-            names.map(name => <h2>{name}</h2>)
-          }
-        </div>
-    )
+    const persons = [
+        {
+            id: 1,
+            name: 'Robin',
+            age: 20,
+            skill: 'JavaScript'
+        },{
+            id: 2,
+            name: 'Brad',
+            age: 21,
+            skill: 'NodeJS'
+        },{
+            id: 3,
+            name: 'Leo',
+            age: 22,
+            skill: 'ReactJS'
+        }
+    ];
+    const personList = persons.map(
+         persons => (
+            <h2>
+                I am {persons.name}.
+                I am {persons.age} years old.
+                I know {persons.skill}
+            </h2>
+        ))
+    return <div>{personList}</div>
 }
 
 export default NameList;
