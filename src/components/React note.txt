@@ -118,13 +118,13 @@ Directly overwite this.state
 
 
 constructor(props)
-state getDerivedStateFromProps(props, state) 
+static getDerivedStateFromProps(props, state) 
 => When the state of the component depends on changes in props over time.
 => Set the state
 => Do not cause side effects. Ex: HTTP requests
 
 constructor(props)
-state getDerivedStateFromProps(props, state)
+static getDerivedStateFromProps(props, state)
 render()
 => Only required method
 => Read props and state return JSX
@@ -132,7 +132,7 @@ render()
 => Children components lifecycle methods are also executed.
 
 constructor(props)
-state getDerivedStateFromProps(props, state)
+static getDerivedStateFromProps(props, state)
 render()
 componentDidMount()
 => Invoked immediately after a component and all its children components have been rendered to the DOM.

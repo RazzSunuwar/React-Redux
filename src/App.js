@@ -14,6 +14,7 @@ import NameList from './components/NameList';
 import StyleSheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import Forms from './components/Forms';
+import LifecycleA from './components/LifecycleA';
 // import './AppStyle.css';
 // import styles from './AppStyle.module.css';
 
@@ -63,7 +64,9 @@ class App extends Component {
         {/* <h1 className='error'>Error</h1> */}
         {/* <h1 className={styles.success}>Success</h1> */}
 
-        <Forms />
+        {/* <Forms /> */}
+        
+        <LifecycleA />
 
       </div>
     );
