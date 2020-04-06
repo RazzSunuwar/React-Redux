@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Greet from './components/Greet'
 import './App.css';
 import Welcome from './components/Welcome';
@@ -16,6 +16,8 @@ import Inline from './components/Inline';
 import Forms from './components/Forms';
 import LifecycleA from './components/LifecycleA';
 import LifecycleC from './components/LifecycleC';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 // import './AppStyle.css';
 // import styles from './AppStyle.module.css';
 
@@ -69,7 +71,12 @@ class App extends Component {
         
         {/* <LifecycleA /> */}
 
-        <LifecycleC />
+        {/* <LifecycleC /> */}
+
+        {/* <FragmentDemo /> */}
+
+        <Table />
+
 
 
       </div>
