@@ -103,6 +103,32 @@ Error Handling: It is called when there is an error during rendering, in a lifec
 or in the constructor of any child component.
 => static getDerivedStateFromError and componentDidCatch
 
+Mounting Lifecycle Methods
+
+constructor(props)
+=> A special function that will get called whenever a new component is created.
+
+=> Initializing state
+Binding the events handlers
+
+=> Do not cause side effects. Ex: HTTP requests
+
+super(props)
+Directly overwite this.state
+
+
+constructor(props)
+state getDerivedStateFromProps(props, state) 
+=> When the state of the component depends on changes in props over time.
+=> Set the state
+=> Do not cause side effects. Ex: HTTP requests
+
+
+
+
+
+
+
 
 
 
