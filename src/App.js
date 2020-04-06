@@ -20,6 +20,7 @@ import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 import PureComp from './PureComp';
 import ParentComp from './ParentComp';
+import RefsDemo from './components/RefsDemo';
 // import './AppStyle.css';
 // import styles from './AppStyle.module.css';
 
@@ -79,7 +80,9 @@ class App extends Component {
 
         {/* <Table /> */}
 
-        <ParentComp />
+        {/* <ParentComp /> */}
+
+        <RefsDemo />
 
 
 
