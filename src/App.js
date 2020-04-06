@@ -18,6 +18,8 @@ import LifecycleA from './components/LifecycleA';
 import LifecycleC from './components/LifecycleC';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import PureComp from './PureComp';
+import ParentComp from './ParentComp';
 // import './AppStyle.css';
 // import styles from './AppStyle.module.css';
 
@@ -75,7 +77,9 @@ class App extends Component {
 
         {/* <FragmentDemo /> */}
 
-        <Table />
+        {/* <Table /> */}
+
+        <ParentComp />
 
 
 
