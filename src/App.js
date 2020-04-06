@@ -21,6 +21,7 @@ import Table from './components/Table';
 import PureComp from './PureComp';
 import ParentComp from './ParentComp';
 import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
 // import './AppStyle.css';
 // import styles from './AppStyle.module.css';
 
@@ -82,7 +83,9 @@ class App extends Component {
 
         {/* <ParentComp /> */}
 
-        <RefsDemo />
+        {/* <RefsDemo /> */}
+
+        <FocusInput />
 
 
 
