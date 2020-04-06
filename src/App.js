@@ -15,6 +15,7 @@ import StyleSheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import Forms from './components/Forms';
 import LifecycleA from './components/LifecycleA';
+import LifecycleC from './components/LifecycleC';
 // import './AppStyle.css';
 // import styles from './AppStyle.module.css';
 
@@ -66,7 +67,10 @@ class App extends Component {
 
         {/* <Forms /> */}
         
-        <LifecycleA />
+        {/* <LifecycleA /> */}
+
+        <LifecycleC />
+
 
       </div>
     );
