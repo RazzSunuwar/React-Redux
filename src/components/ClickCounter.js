@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import updatedComponent from './withCounter'
 
 export class ClickCounter extends Component {
     constructor(props) {
@@ -17,8 +18,9 @@ export class ClickCounter extends Component {
     
     render() {
         const { count } = this.state    
-        return <button onClick={this.incrementCount}>Click {count} Times</button>
+        return <button onClick={this.incrementCount}>
+        {this.props.name} Click {count} Times</button>
     };
 };
 
-export default ClickCounter;
+export default updatedComponent(ClickCounter);

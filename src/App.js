@@ -27,6 +27,7 @@ import PortalDemo from './components/PortalDemo';
 import Hero from './components/Hero';
 import ErrorBoundary from './components/ErrorBoundary';
 import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 // import './AppStyle.css';
 // import styles from './AppStyle.module.css';
 
@@ -110,6 +111,7 @@ class App extends Component {
         
 
         <ClickCounter />
+        <HoverCounter />
 
 
       </div>
