@@ -28,6 +28,9 @@ import Hero from './components/Hero';
 import ErrorBoundary from './components/ErrorBoundary';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
+import User from './components/User';
 // import './AppStyle.css';
 // import styles from './AppStyle.module.css';
 
@@ -110,8 +113,12 @@ class App extends Component {
         </ErrorBoundary> */}
         
 
-        <ClickCounter name='Ramsey' />
-        <HoverCounter />
+        {/* <ClickCounter name='Ramsey' /> */}
+        {/* <HoverCounter /> */}
+
+        <ClickCounterTwo />
+        <HoverCounterTwo />
+        <User render = { (isLoggedIn) =>isLoggedIn ? 'Romieo': 'Guest'} />
 
 
       </div>
