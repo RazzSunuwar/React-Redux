@@ -110,7 +110,7 @@ class App extends Component {
         </ErrorBoundary> */}
         
 
-        <ClickCounter />
+        <ClickCounter name='Ramsey' />
         <HoverCounter />
 
 
