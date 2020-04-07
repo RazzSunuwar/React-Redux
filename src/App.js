@@ -32,6 +32,8 @@ import ClickCounterTwo from './components/ClickCounterTwo';
 import HoverCounterTwo from './components/HoverCounterTwo';
 import User from './components/User';
 import CounterOne from './components/CounterOne';
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/UserContext';
 // import './AppStyle.css';
 // import styles from './AppStyle.module.css';
 
@@ -121,7 +123,7 @@ class App extends Component {
         <HoverCounterTwo />
         <User render = { (isLoggedIn) =>isLoggedIn ? 'Romieo': 'Guest'} /> */}
 
-        <CounterOne>
+        {/* <CounterOne>
           {(count, incrementCount) => (
             <ClickCounterTwo count={count} incrementCount={incrementCount} />
           )}
@@ -131,7 +133,10 @@ class App extends Component {
           { (count, incrementCount) => (
             <HoverCounterTwo count={count} incrementCount={incrementCount} />
           )}
-        </CounterOne>
+        </CounterOne> */}
+        <UserProvider value= 'Thor' >
+          <ComponentC />
+        </UserProvider>
 
       </div>
     );
