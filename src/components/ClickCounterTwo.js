@@ -9,7 +9,7 @@ class ClickCounterTwo extends Component {
         };
     };
 
-    incrementcout = () => {
+    incrementcount = () => {
         this.setState(prevState => {
             return { count: prevState.count + 1 }
         });
@@ -17,7 +17,7 @@ class ClickCounterTwo extends Component {
 
     render() {
         const { count } = this.state
-        return <button onClick={this.incrementcout}>Click { count } Times</button>
+        return <button onClick={this.incrementcount}>Click { count } Times</button>
     };
 };
 
