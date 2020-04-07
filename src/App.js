@@ -22,6 +22,7 @@ import PureComp from './PureComp';
 import ParentComp from './ParentComp';
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
+import FRParent from './components/FRParent';
 // import './AppStyle.css';
 // import styles from './AppStyle.module.css';
 
@@ -85,7 +86,9 @@ class App extends Component {
 
         {/* <RefsDemo /> */}
 
-        <FocusInput />
+        {/* <FocusInput /> */}
+
+        <FRParent />
 
 
 
