@@ -31,6 +31,7 @@ import HoverCounter from './components/HoverCounter';
 import ClickCounterTwo from './components/ClickCounterTwo';
 import HoverCounterTwo from './components/HoverCounterTwo';
 import User from './components/User';
+import CounterOne from './components/CounterOne';
 // import './AppStyle.css';
 // import styles from './AppStyle.module.css';
 
@@ -116,10 +117,21 @@ class App extends Component {
         {/* <ClickCounter name='Ramsey' /> */}
         {/* <HoverCounter /> */}
 
-        <ClickCounterTwo />
+        {/* <ClickCounterTwo />
         <HoverCounterTwo />
-        <User render = { (isLoggedIn) =>isLoggedIn ? 'Romieo': 'Guest'} />
+        <User render = { (isLoggedIn) =>isLoggedIn ? 'Romieo': 'Guest'} /> */}
 
+        <CounterOne>
+          {(count, incrementCount) => (
+            <ClickCounterTwo count={count} incrementCount={incrementCount} />
+          )}
+        </CounterOne>
+
+        <CounterOne>
+          { (count, incrementCount) => (
+            <HoverCounterTwo count={count} incrementCount={incrementCount} />
+          )}
+        </CounterOne>
 
       </div>
     );
