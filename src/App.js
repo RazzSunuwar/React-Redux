@@ -24,6 +24,8 @@ import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import FRParent from './components/FRParent';
 import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
 // import './AppStyle.css';
 // import styles from './AppStyle.module.css';
 
@@ -91,7 +93,19 @@ class App extends Component {
 
         {/* <FRParent /> */}
 
-        < PortalDemo />
+        {/* < PortalDemo /> */}
+
+        <ErrorBoundary>
+          <Hero heroName='Batman' />
+        </ErrorBoundary>
+
+        <ErrorBoundary>
+          <Hero heroName='Superman' />
+        </ErrorBoundary>
+
+        <ErrorBoundary>
+          <Hero heroName='Joker' />
+        </ErrorBoundary>
 
 
 
